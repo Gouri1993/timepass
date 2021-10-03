@@ -1,0 +1,33 @@
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+    .navigation {
+        width: 100vw;
+        height: 100vh;
+        background-color: #0009;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        &>.nav-ls {
+            width: 290px;
+            height: 85vh;
+            background-color: #F6F8F9;
+            &>.home,
+            .photos {
+                color: #343638;
+                opacity: 1;
+                align-items: center;
+                text-decoration: none;
+                &>a {
+                    opacity: 1;
+                    color: #343638;
+                    text-decoration: none;
+                }
+            }
+            &>.home:hover,
+            .photos:hover {
+                color: #343638;
+                opacity: 50%;
+            }
+        }
+    }
+}

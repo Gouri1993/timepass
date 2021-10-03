@@ -1,0 +1,10 @@
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+    .reviews {
+        &>.user-detail {
+            align-items: center;
+            &img {
+                border-radius: 50%;
+            }
+        }
+    }
+}

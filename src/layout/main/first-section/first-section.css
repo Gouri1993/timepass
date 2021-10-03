@@ -1,0 +1,24 @@
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+  .news-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .news-container > img {
+    width: 100%;
+    height: 390px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .news-container > .news-content {
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 390px;
+    background-color: #0009;
+  }
+  .news-container > .news-content > h3 {
+    line-height: 1.6;
+  }
+}
+/*# sourceMappingURL=first-section.css.map */

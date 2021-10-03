@@ -1,0 +1,64 @@
+// flex properties
+.flex-r {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-r-jc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-r-jc-ac {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-c-ac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-c-jc-ac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// anchor tag 
+.no-txt-deco {
+    text-decoration: none;
+}
+
+// buttons 
+.primary-btn {
+    color: $white;
+    border-radius: 6px;
+    border: none;
+    background: $peach;
+    height: 40px;
+    width: 150px;
+}
+
+// divider
+.divider-white {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    height: 0px;
+}
+
+.divider-grey {
+    border: 1px solid #EBEDED;
+    border-radius: 5px;
+    height: 0px;
+}

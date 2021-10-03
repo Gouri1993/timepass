@@ -1,0 +1,34 @@
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+  .blog > .blog-overview {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .blog > .blog-overview > img {
+    width: 100%;
+    height: 390px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .blog > .blog-overview > .blog-content {
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 390px;
+    background-color: #0009;
+  }
+  .blog > .blog-overview > .blog-content > h1 {
+    margin-top: 30%;
+    text-align: center;
+  }
+  .blog > .blog-overview > .blog-content > .next {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 80%;
+  }
+  .blog > .blog-overview > .blog-content > .next > a {
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=blog.css.map */

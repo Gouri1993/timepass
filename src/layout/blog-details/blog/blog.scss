@@ -1,0 +1,33 @@
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+    .blog {
+        &>.blog-overview {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            &>img {
+                width: 100%;
+                height: 390px;
+                object-fit: cover;
+            }
+            &>.blog-content {
+                position: absolute;
+                color: white;
+                width: 100%;
+                height: 390px;
+                background-color: #0009;
+                &>h1 {
+                    margin-top: 30%;
+                    text-align: center;
+                }
+                &>.next {
+                    align-items: center;
+                    margin-left: 80%;
+                    &>a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        // &>.blog-description {}
+    }
+}
